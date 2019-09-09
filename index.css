@@ -1,0 +1,24 @@
+:root {
+    /* Sørger for at 1 rem er 10px */
+    font-size: 62.5%;
+}
+
+*, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    font-family: "acumin pro", "Helvetica Neue", sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: white;
+}
