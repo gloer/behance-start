@@ -1,0 +1,29 @@
+
+
+.top-menu {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6rem;
+    width: 100%;
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;    
+}
+
+.top-menu .search {
+    height: 2rem;
+}
+
+.top-menu .home-button {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.top-menu .right {
+    justify-self: end;
+}
